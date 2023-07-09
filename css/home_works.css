@@ -1,0 +1,134 @@
+/* GMAIL BLOCK */
+body {
+    background: black;  
+}
+.email_block {
+    margin: 50px auto;
+    width: 50%;
+    border: #f2f3f4 2px solid;
+    border-radius: 10px;
+    background: black;
+    padding: 100px 0;
+}
+.email_container {
+  justify-content: center;
+  display: flex;
+}
+.email_text {
+  justify-content: center;
+  color: rgb(225, 230, 230) ;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  font-weight: 300;
+}
+#emailInput {
+  border-radius: 5px;
+  width: 450px; 
+  color: #fbf3f3;
+}
+#emailCheck {
+  border-radius: 5px;
+  width: 150px;
+  background-color: #2e70f5;
+  color: #000000;
+}
+.emailResult {
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 19px;
+}
+
+
+/* MOVE BLOCK */
+
+.move_block {
+    background: black;
+    padding: 50px 0;
+}
+
+.parent_block {
+    height: 500px;
+    width: 500px;
+    border: 2px solid rgb(255, 255, 0);
+    position: relative;
+    margin: 0 auto;
+}
+
+.child_block {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 0, 0);
+}
+
+.inner_move_block {
+    margin-top: 50px;
+}
+
+
+/* .counter-block */
+
+.counter-block {
+  background-color: black;
+}
+
+#time {
+  padding-top: 50px;
+  font-size: 60px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.buttons {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  background-color: #2e70f5;
+  color: rgb(254, 251, 251);
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgb(45, 240, 240);
+  color: black;
+}
+
+/* КОНВЕРТЕР ВАЛЮТ */
+
+.som-block > div {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 50px;
+}
+label {
+  color: rgb(242, 242, 235);
+}
+
+
+.fetch-block {
+  padding: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card {
+  padding-top: 50px;
+  width: 500px;
+  height: 250px;
+  border: yellow 3px solid;
+  border-radius: 10px;
+}
+
